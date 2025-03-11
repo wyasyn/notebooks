@@ -1,10 +1,15 @@
 ---
 title: "Understanding Machine Learning Performance Metrics in Simple Terms"
 description: "A beginner-friendly guide to understanding key machine learning performance metrics without technical jargon."
-author: "Your Name"
-date: "2025-02-25"
-categories: ["Machine Learning", "AI Basics"]
-tags: ["ML Metrics", "Regression", "Classification"]
+
+tags:
+  [
+    "Machine Learning",
+    "AI Basics",
+    "ML Metrics",
+    "Regression",
+    "Classification",
+  ]
 ---
 
 ## Introduction

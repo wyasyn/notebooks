@@ -1,4 +1,4 @@
-**Project Proposal: AI-Powered Skin Analyzer**
+**Aurora Organics AI Skin Analyzer Enhancement Proposal**
 
 **Prepared by:** Yasin Walum (Tech Lead)
 
@@ -8,130 +8,118 @@
 
 ---
 
-## **1. Project Overview**
+## **1. Executive Summary**
 
-Aurora Organics aims to develop an AI-powered Skin Analyzer to accurately detect common skin issues and provide personalized skincare recommendations. This system will leverage computer vision and predictive modeling to enhance user experience and promote sustainable skincare solutions.
-
----
-
-## **2. Project Objectives**
-
-1. **Enhance Computer Vision Algorithms**
-
-   - Optimize skin detection techniques to identify conditions such as acne, hyperpigmentation, wrinkles, and dryness using high-quality image datasets.
-
-2. **Develop a Basic Predictive Model**
-
-   - Create a model to offer short-term skincare recommendations based on detected skin conditions.
-
-3. **Simplify Data Visualization**
-   - Build an interactive dashboard to present model insights, performance metrics, and actionable recommendations in an accessible format.
+Aurora Organics aims to improve its AI-powered Skin Analyzer to enhance skin detection accuracy and provide better skincare recommendations. This enhancement will focus on refining AI models, improving product matching to user profiles, enabling skin health tracking, and introducing a simple consultation booking system. Additionally, a custom admin dashboard will be developed for better management and insights.
 
 ---
 
-## **3. Deliverables**
+## **2. Project Scope**
 
-### **Phase 1: Requirement Analysis & Project Proposal**
+### **Objectives and Goals**
 
-**Tasks:**
-
-- Gather key requirements from Aurora Organics’ stakeholders.
-- Define project scope, success metrics, and KPIs tailored to computer vision and predictive modeling.
-- Identify essential data sources, including skin image datasets and relevant product information.
-
-**Deliverable:**
-
-- A concise project proposal outlining objectives, methodologies, and timeline.
-
-### **Phase 2: Data Collection, Cleaning & Exploratory Data Analysis (EDA)**
-
-**Tasks:**
-
-- Collect and aggregate diverse skin image datasets and relevant product data.
-- Perform data cleaning and preprocessing to ensure consistency.
-- Conduct EDA to identify trends and initial insights into skin conditions.
-
-**Deliverable:**
-
-- A set of cleaned datasets ready for model training and testing.
-
-### **Phase 3: AI Model Development & Enhancement**
-
-**Tasks:**
-
-- Enhance computer vision algorithms for accurate skin issue detection.
-- Develop and train a predictive model linking detected skin issues to recommendations.
-- Validate the model using ML tools (Python, TensorFlow, OpenCV, etc.).
-
-**Deliverable:**
-
-- An improved AI model with performance metrics and detailed technical documentation.
-
-### **Phase 4: Predictive Analytics & Data Visualization**
-
-**Tasks:**
-
-- Refine the predictive model based on feedback and testing outcomes.
-- Develop an interactive dashboard (Power BI, Tableau, or a web-based solution) to display insights and performance metrics.
-
-**Deliverable:**
-
-- A predictive analytics model paired with an interactive visualization dashboard.
+- Improve AI skin detection algorithms for enhanced accuracy.
+- Provide personalized skincare recommendations based on detected conditions.
+- Develop a custom admin dashboard for monitoring and managing user interactions.
+- Implement a consultation booking feature for professional skincare guidance.
+- Enhance product matching based on user profiles and skincare needs.
+- Store and track user history and progress for improved skincare recommendations.
 
 ---
 
-## **4. Technology Stack**
+## **3. Scope of Work**
 
-- **Machine Learning & AI:** TensorFlow, OpenCV, Scikit-learn
-- **Backend:** Flask, FastAPI, Django
-- **Frontend:** React.js, Next.js, TailwindCSS
-- **Data Processing:** Pandas, NumPy, Matplotlib
-- **Database:** PostgreSQL, Firebase, MongoDB
-- **Visualization Tools:** Power BI, Tableau, Dash
+### **AI Model Improvement**
 
----
+- Optimize computer vision techniques to detect common skin issues accurately.
+- Train and fine-tune models with high-quality skin image datasets.
+- Improve model explainability and validation processes.
 
-## **5. Mentorship & Collaboration**
+### **Better Product Matching**
 
-**1. Domain Expertise and Knowledge**
+- Implement AI-driven recommendations based on skin analysis results.
+- Enhance user profile-based matching with Aurora Organics’ skincare products.
+- Develop a feedback loop to refine recommendations over time.
 
-- Providing specialized insights into skincare, AI, and data science.
-  **2. Skills, Knowledge, and Expertise**
-- Sharing technical methodologies and best practices for model development.
-  **3. Hands-on Support**
-- Direct involvement in implementing AI models and optimizing performance.
-  **4. Tools and Resources**
-- Ensuring access to the necessary AI/ML tools, computing power, and datasets.
-  **5. Regular Meetings**
-- Scheduled check-ins to track progress, address challenges, and refine approaches.
+### **User Profile & Tracking**
 
----
+- Enable users to track skin health improvements over time.
+- Store user history and progress for personalized recommendations.
+- Allow comparison of past and present skin analysis results.
 
-## **6. Project Timeline**
+### **Simple Consultation Booking System**
 
-| **Phase**                   | **Duration** | **Key Milestones**                          |
-| --------------------------- | ------------ | ------------------------------------------- |
-| Requirement Analysis        | 2 weeks      | Finalized project scope and success metrics |
-| Data Collection & EDA       | 4 weeks      | Cleaned and preprocessed datasets           |
-| Model Development           | 6 weeks      | Initial AI model with baseline performance  |
-| Model Enhancement & Testing | 4 weeks      | Improved model with performance validation  |
-| Dashboard Development       | 3 weeks      | Functional interactive dashboard            |
-| Final Testing & Deployment  | 3 weeks      | Deployment-ready system with documentation  |
+- Implement a booking feature for users to schedule consultations with skincare professionals.
+- Integrate calendar functionalities for appointment management.
+
+### **Custom Admin Dashboard**
+
+- Develop a secure and interactive admin panel using Next.js and FastAPI.
+- Provide insights into user interactions, model performance, and recommendations.
+- Store and analyze user history and progress for data-driven decision-making.
+- Enable manual adjustments and reporting functionalities.
 
 ---
 
-## **7. Success Metrics & KPIs**
+## **4. Key Success Metrics**
 
-- **Accuracy:** ≥85% for skin issue detection
-- **Performance:** Fast processing time for real-time analysis
-- **User Engagement:** Measured by dashboard interaction & feedback
-- **Scalability:** Capability to handle growing datasets & users
+- **Model Accuracy:** ≥90% for skin condition detection.
+- **Recommendation Effectiveness:** Measured through user feedback and engagement.
+- **User Engagement:** Increased number of users tracking skin progress.
+- **Consultation Feature Usage:** Number of successful bookings per month.
+- **Dashboard Utility:** Admin interactions with data insights and adjustments.
+- **User History & Progress Tracking:** Effectiveness of stored data in improving recommendations.
+
+---
+
+## **5. Data and Technology Requirements**
+
+### **Tech Stack**
+
+- **Backend:** FastAPI for high-performance API development.
+- **Frontend:** Next.js for a modern and fast user experience.
+- **Machine Learning:** TensorFlow, OpenCV, Scikit-learn for skin analysis models.
+- **Database:** PostgreSQL or Firebase for user history and progress storage.
+- **Visualization:** Custom dashboards for insights and reports.
+- **Authentication & Security:** OAuth, JWT, and GDPR-compliant data handling.
+
+### **Data Requirements**
+
+- High-quality skin image datasets for training and validation.
+- User profiles with skin concerns and product preferences.
+- User history and progress tracking data.
+- Consultation scheduling data for professionals.
+
+---
+
+## **6. Implementation Timeline**
+
+| **Phase**                          | **Duration** | **Key Milestones**                                |
+| ---------------------------------- | ------------ | ------------------------------------------------- |
+| Requirement Analysis               | 2 weeks      | Finalized project scope and success metrics       |
+| Data Collection & Cleaning         | 4 weeks      | Prepared and preprocessed datasets                |
+| Model Development & Improvement    | 6 weeks      | Optimized AI model with baseline validation       |
+| Product Matching & Tracking        | 4 weeks      | Personalized recommendations and tracking enabled |
+| Consultation Booking System        | 3 weeks      | Functional booking feature deployed               |
+| Custom Admin Dashboard Development | 4 weeks      | Complete with data insights and controls          |
+| Final Testing & Deployment         | 3 weeks      | Fully tested and deployed solution                |
+
+---
+
+## **7. Deliverables**
+
+- **Enhanced AI Model** for improved skin condition detection.
+- **Personalized Product Recommendation System** for tailored skincare advice.
+- **User Profile & Tracking Features** for skin health progress and history storage.
+- **Simple Consultation Booking System** for direct expert interaction.
+- **Custom Admin Dashboard** for monitoring AI performance, user engagement, and analytics.
+- **Comprehensive Documentation** covering system architecture, API endpoints, and model training details.
 
 ---
 
 ## **8. Conclusion**
 
-This project will enhance skincare personalization through AI-driven insights, benefiting both consumers and Aurora Organics. By leveraging computer vision, predictive analytics, and interactive dashboards, the AI-powered Skin Analyzer will become a cutting-edge tool in sustainable skincare solutions.
+This proposal focuses on proactively improving Aurora Organics’ AI Skin Analyzer by integrating enhanced AI-driven analysis, personalized recommendations, user tracking, and a custom admin dashboard. By leveraging FastAPI for backend efficiency and Next.js for an optimized frontend experience, this system will deliver high-performance, scalable, and user-friendly skincare solutions. The planned enhancements will position Aurora Organics as a leader in AI-powered skincare technology while ensuring seamless user history tracking for better long-term recommendations.
 
 ---
 
