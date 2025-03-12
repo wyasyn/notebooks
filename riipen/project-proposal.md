@@ -123,4 +123,36 @@ This proposal focuses on proactively improving Aurora Organics’ AI Skin Analyz
 
 ---
 
+## **9. Deployment Plan**
+
+### **9.1 Deployment Strategy**
+
+The AI Skin Analyzer system will be deployed in a **scalable, secure, and cost-effective** manner. The deployment will involve:
+
+- **Backend (FastAPI)** deployed on a cloud platform with containerization support.
+- **Frontend (Next.js)** hosted on a modern edge-optimized deployment platform.
+- **Database** hosted on a managed cloud database service.
+- **Machine Learning Model** optimized for real-time inference and deployed using an API.
+
+### **9.2 Hosting & Infrastructure**
+
+| **Component**                  | **Technology**       | **Hosting Option**                                      | **Estimated Cost**                                    |
+| ------------------------------ | -------------------- | ------------------------------------------------------- | ----------------------------------------------------- |
+| **Backend (API & ML Model)**   | FastAPI, Docker      | AWS EC2, Google Cloud Run, or DigitalOcean App Platform | $20 - $50/month (scalable based on traffic)           |
+| **Frontend (Web App)**         | Next.js              | Vercel, Netlify, or AWS Amplify                         | Free - $50/month (depends on usage)                   |
+| **Database**                   | PostgreSQL, Firebase | AWS RDS, Google Firestore, Supabase                     | $10 - $100/month (depends on data storage & requests) |
+| **File Storage (User Images)** | AWS S3, Cloudinary   | AWS S3, Firebase Storage, Cloudinary                    | $10 - $50/month                                       |
+| **Authentication & Security**  | OAuth, JWT           | Auth0, Firebase Auth, AWS Cognito                       | Free - $25/month (depends on users)                   |
+| **Domain & SSL**               | Custom domain        | Google Domains, Namecheap, Cloudflare                   | $10 - $20/year                                        |
+
+### **9.3 Deployment Process**
+
+- **Backend Deployment:** Docker-based FastAPI hosting with API security.
+- **Frontend Deployment:** Next.js on Vercel or Netlify for high performance.
+- **Database & Storage Setup:** PostgreSQL or Firebase for scalable data storage.
+- **CI/CD Integration:** Automated deployment using GitHub Actions.
+- **Monitoring & Maintenance:** Logging, tracking, and model updates.
+
+---
+
 **End of Proposal**
